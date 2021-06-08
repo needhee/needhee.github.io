@@ -2,25 +2,25 @@
 body {
   background-color:black;
   color:white;
-  h1{
+}
+h1{
     font-size:20px;
-  }
-  p{
+}
+p{
     font-size:12px;
     color:green;
-  }
-  div{
+}
+div{
     border-width:2px;
     border-style:dotted;
     height:100px;
     width:100px;
-    
-    .ol{
+}  
+ol.subject{
       list-style-type: lower-alpha;
-    }
-    
-    .ul{
-      list-style-type: square;
-    }
-  }
 }
+    
+ul.objective{
+      list-style-type: square;
+}
+
